@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(153, 153, 102);
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 17%;
+    background-color: #595959;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #011910;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+#rcorners1, #rcorners2, #rcorners3, #rcorners4 {
+    border-radius: 25px;
+    background: #e4a281;
+    color: white;
+    padding: 20px;
+    display: center;
+    align-items: center;
+}
+
+#rcorners1 {
+    width: 400px;
+    height: 389px;
+    margin-left: 120px;
+}
+
+#rcorners2 {
+    width: 400px;
+    height: 200px;
+    margin-left: 780px;
+    margin-top: 20px;
+}
+
+#rcorners3 {
+    background: #595959;
+    width: 400px;
+    height: 350px;
+    margin-left: 480px;
+    margin-top: 200px;
+}
+
+#rcorners4 {
+    border-radius: 300px;
+    background: #262626;
+    width: 900px;
+    height: 650px;
+    margin-left: 350px;
+    margin-top: 800px;
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 60px;
+    margin-left: 30%;
+}
+
+.content-wrapper img {
+    height: 250px;
+    width: 180px;
+    margin-right: 80px;
+}
+
+.job-pic {
+    margin-top: -360px;
+    margin-left: 30%;
+}
+
+.box-wrapper {
+    display: flex;
+    flex-direction: column;
+}
